@@ -115,7 +115,7 @@ body{
 }
 .logo img
 .logo::after{
-      content: url('/img/Line.png');
+      content: url('../img/Line.png');
      position: absolute;
      left: 190px;
      top: 0px;
@@ -130,7 +130,7 @@ body{
       position: relative;
 }
 .office::before{
-      content: url('/img/placeholder.svg');
+      content: url('../img/placeholder.svg');
       position: absolute;
       left: -35px;
       top: -5px;
@@ -175,7 +175,7 @@ body{
       max-height: 80vh;
       position: relative;
       overflow: hidden;
-      /* background: url(/img/car1.png) 0 0/ 100% auto no-repeat; */
+      /* background: url(../img/car1.png) 0 0/ 100% auto no-repeat; */
 }
 .shipping__bg{
       position: absolute;
@@ -222,7 +222,7 @@ body{
     
     
 .shipping__container {
-      /* background: url(/img/car1.png) 0 0/ 100% auto no-repeat;
+      /* background: url(../img/car1.png) 0 0/ 100% auto no-repeat;
       max-width: 1920px; */
    
     }
@@ -267,7 +267,7 @@ body{
       max-width: 1920px;
       /* min-height: 561px; */
       margin: 0 auto;
-      background-image: url(/img/blockblack.png), url(/img/blockblack.png);
+      background-image: url(../img/blockblack.png), url(../img/blockblack.png);
       background-position: left, right;
       background-repeat: no-repeat;
       background-size: 40% 100%;
@@ -307,7 +307,7 @@ body{
 
 }
 .eu__title::before{
-      content: url('/img/Rectangle\ 2.png');
+      content: url('../img/Rectangle\ 2.png');
       position: absolute;
       bottom: 115px;
 
@@ -414,7 +414,7 @@ body{
 
 }
 .arrows::before{
-      content: url('/img/car2.jpg');
+      content: url('../img/car2.jpg');
       position: absolute;
       left: -428px;
       top: 30px;
@@ -437,7 +437,7 @@ body{
 }
 .arrows__item:first-child::after {
       content: '';
-      background: url(/img/Arrow_right.png) 35px 0 no-repeat;
+      background: url(../img/Arrow_right.png) 35px 0 no-repeat;
       padding: 0 51px;
       z-index: 1;
 
@@ -447,7 +447,7 @@ body{
 }
 .arrows__item:last-child::before {
       content: '';
-      background: url(/img/Arrow_left.png) 10px 0 no-repeat;
+      background: url(../img/Arrow_left.png) 10px 0 no-repeat;
       padding: 0 51px;
       z-index: 1;
    
@@ -476,7 +476,7 @@ body{
 
 }
 .service__title::before{
-      content: url(/img/Rectangle\ 2.png);
+      content: url(../img/Rectangle\ 2.png);
       position: absolute;
       bottom: calc(60px + 55 * (100vw / 1920));;
 }
@@ -503,7 +503,7 @@ body{
      
 }
 .service__item::after{
-      content: url('/img/airplane-fli.svg');
+      content: url('../img/airplane-fli.svg');
       position: absolute;
       top: 35px;
       left: 104px;
@@ -553,7 +553,7 @@ body{
 .about {
 }
 .about__container {
-      background: url(/img/blockblack.png) 50% 150% / 410px 485px no-repeat;
+      background: url(../img/blockblack.png) 50% 150% / 410px 485px no-repeat;
       max-width: 1110px;
       margin: 0 auto;
       padding-top: 213px;
@@ -584,7 +584,7 @@ body{
 
 }
 .about__title::before{
-      content: url(/img/Rectangle\ 2.png);
+      content: url(../img/Rectangle\ 2.png);
       position: absolute;
       bottom: calc(60px + 55 * (100vw / 1920));;
 }
@@ -771,7 +771,7 @@ body{
             
       }
       .logo::after {
-            content: url(/img/Line.png);
+            content: url(../img/Line.png);
             position: absolute;
             left: 151px;
             top: -8px;
@@ -813,7 +813,7 @@ body{
             margin-top: -100px;
             max-width: 100%;
             /* max-height: 280px; */
-            background-image: url(/img/blockblack.png), url(/img/blockblack.png);
+            background-image: url(../img/blockblack.png), url(../img/blockblack.png);
             background-position: 0px 45%, 100% 45%;
             background-repeat: no-repeat;
             background-size: 40% 60%;
@@ -830,7 +830,7 @@ body{
       }
       .eu__title::before{
             content: '';
-            background: url('/img/Rectangle\ 2.png')  30% no-repeat;
+            background: url('../img/Rectangle\ 2.png')  30% no-repeat;
             z-index: 1;
             /* padding: 30px; */
             position: absolute;
@@ -847,7 +847,7 @@ body{
       }
       .arrows::before{
             content: '';
-            background: url(/img/car2.jpg) 100% 0%/ 70% no-repeat;
+            background: url(../img/car2.jpg) 100% 0%/ 70% no-repeat;
             padding: 200px;
             z-index: 10;
         
@@ -864,7 +864,7 @@ body{
       }
       .arrows__item:first-child::after {
             content: '';
-            background: url(/img/Arrow_right.png) 30px 3px/ 50% no-repeat;
+            background: url(../img/Arrow_right.png) 30px 3px/ 50% no-repeat;
             padding: 0 31px;
             z-index: 1;
       
@@ -874,7 +874,7 @@ body{
       }
       .arrows__item:last-child::before {
             content: '';
-            background: url(/img/Arrow_left.png) 10px / 50% no-repeat;
+            background: url(../img/Arrow_left.png) 10px / 50% no-repeat;
             padding: 0 31px;
             z-index: 1;
          
@@ -937,14 +937,14 @@ body{
             margin-top: 1px;
             max-width: 100%;
             min-height: 300px;
-            background-image: url(/img/blockblack.png), url(/img/blockblack.png);
+            background-image: url(../img/blockblack.png), url(../img/blockblack.png);
             background-position: 0px 0%, 100% 0%;
             background-repeat: no-repeat;
             background-size: 40% 100%;
       }
       .arrows::before{
             content: '';
-            background: url(/img/car2.jpg) 150% 0%/ 70% no-repeat;
+            background: url(../img/car2.jpg) 150% 0%/ 70% no-repeat;
             padding: 200px;
             z-index: 10;
         
@@ -970,7 +970,7 @@ body{
             left: 66px;
       }
       .about__container{
-            background: url(/img/blockblack.png) 50% 95% / 410px 585px no-repeat;
+            background: url(../img/blockblack.png) 50% 95% / 410px 585px no-repeat;
             max-width: 80%;
 
       }
@@ -1095,7 +1095,7 @@ body{
             margin-top: 0.1px;
             max-width: 100%;
             min-height: 300px;
-            background-image: url(/img/blockblack.png), url(/img/blockblack.png);
+            background-image: url(../img/blockblack.png), url(../img/blockblack.png);
             background-position: 0px 0%, 100% 0%;
             background-repeat: no-repeat;
             background-size: 40% 90%;
@@ -1119,7 +1119,7 @@ body{
       }
       .arrows::before{
             content: '';
-            background: url(/img/car2.jpg) 65% 5%/ 40% no-repeat;
+            background: url(../img/car2.jpg) 65% 5%/ 40% no-repeat;
             padding: 300px;
             z-index: 1;
         
@@ -1149,7 +1149,7 @@ body{
             font-size: 12px;
       }
       .about__container{
-            background: url(/img/blockblack.png) 50% 40% / 410px 485px no-repeat;
+            background: url(../img/blockblack.png) 50% 40% / 410px 485px no-repeat;
             max-width: 80%;
             padding-top: 200px;
 
@@ -1228,7 +1228,7 @@ body{
             padding: 10px 0;
       }
       .logo::after{
-            content: url('/img/Line.png');
+            content: url('../img/Line.png');
            max-height: 35px;
            overflow: hidden;
            left: 140%;
@@ -1272,7 +1272,7 @@ body{
       .eu {
       }
       .eu__container {
-            background-image: url(/img/blockblack.png), url(/img/blockblack.png);
+            background-image: url(../img/blockblack.png), url(../img/blockblack.png);
             background-position: 0px 0%, 100% 0%;
             background-repeat: no-repeat;
             background-size: 40% 90%;
@@ -1293,7 +1293,7 @@ body{
       }
       .arrows::before{
             content: '';
-            background: url(/img/car2.jpg) 75% 5%/ 30% no-repeat;
+            background: url(../img/car2.jpg) 75% 5%/ 30% no-repeat;
             padding: 300px;
             z-index: 10;
         
@@ -1424,7 +1424,7 @@ body{
             max-width: 100%;
       }
       .shipping__text {
-            margin-top: 40px;
+            margin-top: 20px;
             padding: 10px 0;
       }
       .shipping__title {
@@ -1438,7 +1438,7 @@ body{
       .eu {
       }
       .eu__container {
-            background-image: url(/img/blockblack.png), ;
+            background-image: url(../img/blockblack.png), ;
             background-position: 0px 0px, 100% 0%;
             background-repeat: no-repeat;
             background-size: 40% 90%, 40% 90%;
@@ -1469,7 +1469,7 @@ body{
             position: relative;
       }
       .arrows::before{
-            background: url(/img/car2.jpg) 108% 20%/ 34% no-repeat;
+            background: url(../img/car2.jpg) 108% 20%/ 34% no-repeat;
             padding: 220px;
             z-index: 10
       }
@@ -1495,7 +1495,7 @@ body{
       }
       .arrows__item:first-child::after {
             content: '';
-            background: url(/img/Arrow_right.png) 10px 2px / 60% no-repeat;
+            background: url(../img/Arrow_right.png) 10px 2px / 60% no-repeat;
             padding: 0 21px;
             z-index: 1;
       
@@ -1505,7 +1505,7 @@ body{
       }
       .arrows__item:last-child::before {
             content: '';
-            background: url(/img/Arrow_left.png) 6px 2px / 60% no-repeat;
+            background: url(../img/Arrow_left.png) 6px 2px / 60% no-repeat;
             padding: 0 21px;
             z-index: 1;
          
@@ -1632,7 +1632,7 @@ body{
       .eu {
       }
       .eu__container {
-            background-image: url(/img/car2.jpg), url(/img/blockblack.png);
+            background-image: url(../img/car2.jpg), url(../img/blockblack.png);
             background-position: 86% 76%, 100% 0%;
             background-repeat: no-repeat;
             background-size: 40% 25%, 35% 82%;
