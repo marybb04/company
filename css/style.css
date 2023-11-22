@@ -1368,11 +1368,16 @@ body{
            
       }
       .header__orange {
-            gap: 90px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px;
       }
       .language {
       }
       .language__wrapper {
+            display: flex;
+            flex-wrap: wrap;
       }
       .language__item {
       }
@@ -1405,18 +1410,35 @@ body{
             padding-left: 15px;
             padding-right: 12px;
       }
+      .company{
+            width: 100%;
+           margin: 0 auto;
+
+      }
+      .company__wrapper{
+            width: 100%;
+            margin: 0 auto;
+      }
       .company__nav {
+           width: 100%;
+        
+
       }
       .navigation {
-            min-width: 428px;
-            gap: 10px;
+           width: 100%;
+         justify-content: start;
+         gap: 20px;
       }
       .navigation__item {
       }
-      .shipping {
+      .shipping{
+            height: 70vh;
+      }
+      .shipping__bg {
+            animation: none;
       }
       .shipping__container {
-            min-height: 200px;
+            height: 200px;
            
 
       }
@@ -1424,14 +1446,14 @@ body{
             max-width: 100%;
       }
       .shipping__text {
-            margin-top: 20px;
+            margin-top: 0px;
             padding: 10px 0;
       }
       .shipping__title {
-            padding: 10px 0 0 0 ;
+            padding: 8px 0 0 0 ;
       }
       .shipping__discription {
-            padding: 20px ;
+            padding: 10px ;
       }
       .discription {
       }
