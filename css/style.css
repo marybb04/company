@@ -903,7 +903,9 @@ body{
       .logo:first-child img{
             max-width: 100%;
       }
-     
+     .shipping{
+            height: 50vh;
+     }
       .shipping__container{
             max-height: 280px;
       }
@@ -1432,7 +1434,7 @@ body{
       .navigation__item {
       }
       .shipping{
-            height: 60vh;
+            height: 30vh;
       }
       .shipping__bg {
             animation: none;
