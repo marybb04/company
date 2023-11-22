@@ -172,7 +172,7 @@ body{
 }
 .shipping {
       width: 100vw;
-      max-height: 80vh;
+      max-height: 60vh;
       position: relative;
       overflow: hidden;
       /* background: url(../img/car1.png) 0 0/ 100% auto no-repeat; */
@@ -785,7 +785,7 @@ body{
       .navigation__item {
       }
       .shipping {
-            height: 100vh;
+            height: 70vh;
       }
       .shipping__container {
             /* min-height: 339px; */
@@ -1432,7 +1432,7 @@ body{
       .navigation__item {
       }
       .shipping{
-            height: 70vh;
+            height: 60vh;
       }
       .shipping__bg {
             animation: none;
